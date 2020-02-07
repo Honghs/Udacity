@@ -1,0 +1,45 @@
+
+
+aside{
+    display: flex;
+    grid-column: span 2;
+    background-color: cadetblue;
+    font-size: 20px;
+}
+
+
+ul > li{
+    list-style: none;
+    margin-left: -18px;
+    padding: 6px;
+}
+
+.aside  a:link{
+    color: wheat;
+}
+.aside  a:visited{
+    color: lightslategray;
+}
+.aside a:hover{
+    color: lightsalmon;
+}
+.aside a:active{
+    color: black;
+}
+
+.aside li:nth-child(9) a {color:red;}
+
+
+.middle{
+    display: flex;
+    grid-column: span 8;
+    background-color: lightgrey;
+}
+
+
+
+
+.middle img{
+    height: 100%;
+    width: 100%;
+}

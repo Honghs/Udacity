@@ -1,0 +1,61 @@
+
+.big{
+    display: flex;
+    flex-direction: row;
+    grid-column: span 5;
+    background-color: whitesmoke;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    grid-column: span 5;
+    background-color: whitesmoke;
+}
+
+.firstfooter{
+    margin-left: 20px;
+}
+
+.news{
+    display: inline-block;
+    margin-top:-10px;
+    border-top: 1px solid lightgrey;
+    font-size: 10px;
+}
+
+.center{
+    margin-top:-10px;
+    border-top: 1px solid lightgrey;
+    font-size: 10px;
+    padding: 10px;
+    letter-spacing: 5px;
+}
+
+.card{
+    display: grid;    
+    grid: 150px / 1fr;
+    
+}
+
+.more{
+    display: flex;
+    justify-content: end;
+
+}
+
+img{
+    width: 100px;
+    height: 150px;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.profile {
+    padding: 10px 
+}
+div > p {
+    border-top: 1px solid grey;
+    padding-top: 15px;
+}
